@@ -1,13 +1,13 @@
 ## Routes availeble
 
-# Customer
+### Customer
 
 | Routes | Method | Description |
 | --- | --- | --- |
 | `/api/customer` | `GET` | Fetch all customer data |
 | `/api/customer/:id` | `DELETE` | Remove a customer by ID |
 
-# Order
+### Order
 
 | Routes | Method | Description |
 | --- | --- | --- |
@@ -16,7 +16,7 @@
 | `/api/order_details/:order_id` | `PUT` | Update order details |
 
 
-# Product
+### Product
 
 | Routes | Method | Description |
 | --- | --- | --- |
@@ -25,7 +25,7 @@
 | `/api/product` | `GET` | Fetch all products |
 | `/api/product` | `POST` | Create a new product |
 
-# Supplier
+### Supplier
 
 | Routes | Method | Description |
 | --- | --- | --- |
