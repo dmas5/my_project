@@ -1,3 +1,39 @@
+## Routes availeble
+
+# Customer
+
+| Routes | Method | Description |
+| --- | --- | --- |
+| `/api/customer` | `GET` | Fetch all customer data |
+| `/api/customer/:id` | `DELETE` | Remove a customer by ID |
+
+# Order
+
+| Routes | Method | Description |
+| --- | --- | --- |
+| `/api/order/:customer_id` | `GET` | Fetch order data by customer ID |
+| `/api/order` | `POST` | Create a new order |
+| `/api/order_details/:order_id` | `PUT` | Update order details |
+
+
+# Product
+
+| Routes | Method | Description |
+| --- | --- | --- |
+| `/api/product/category` | `GET` | Fetch products by category |
+| `/api/product/:id` | `GET` | Fetch product by ID |
+| `/api/product` | `GET` | Fetch all products |
+| `/api/product` | `POST` | Create a new product |
+
+# Supplier
+
+| Routes | Method | Description |
+| --- | --- | --- |
+| `/api/supplier` | `GET` | Fetch all suppliers |
+| `/api/supplier` | `POST` | Add a new supplier |
+| `/api/supplier/:id` | `PUT` | Modify a supplier |
+| `/api/supplier/:id` | `DELETE` | Remove a supplier |
+
 ## Project Structure
 
 ```text
@@ -21,6 +57,8 @@ Inventory_management_system/
 │   │   └── sql.js                   Helper function for db interaction
 │   └── server.js
 ├── inventory.sql                    SQL table definitions & insert statements
+├── db.sql                           Create database             
 └── start.js                         Main file
 ```
+
 
