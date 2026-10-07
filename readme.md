@@ -11,7 +11,7 @@
 
 | Routes | Method | Description |
 | --- | --- | --- |
-| `/api/order/:customer_id` | `GET` | Fetch order data by customer ID |
+| `/api/order/:customer_id` | `GET` | Fetch all orders and order details related to customer id  |
 | `/api/order` | `POST` | Create a new order |
 | `/api/order_details/:order_id` | `PUT` | Update order details |
 
